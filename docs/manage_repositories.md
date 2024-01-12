@@ -18,7 +18,7 @@ When it asks for the upstream repository branch, answer with the respective rele
 
 Assuming you are in your workspace and suppose you want to create a new release of ``ffmpeg_image_transport`` for distro Humble that captures the changes in ``master``:
 ```bash
-my_repo=ffmpeg_image_transport_driver
+my_repo=ffmpeg_image_transport
 distro=humble
 #
 cd src/${my_repo}
