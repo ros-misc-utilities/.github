@@ -27,7 +27,7 @@ cd ~/${repo}_ws/src  # or wherever your workspace is
 # download the repo
 git clone ${url}
 # download source repos that the downloaded repository depends on, if any
-cd src; [ -f ${repo}/${repo}.repos ] && vcs import < ${repo}/${repo}.repos ; cd ..
+[ -f ${repo}/${repo}.repos ] && vcs import < ${repo}/${repo}.repos ; cd ..
 # install all remaining other system and ROS dependencies via package manager
 rosdep install --from-paths . --ignore-src --rosdistro=${ROS_DISTRO}
 ```
