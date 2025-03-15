@@ -23,7 +23,10 @@ The following packages are indexed by rosdistro and can be installed with a pack
   a ROS2 image transport plugin for producing Foxglove CompressedVideo messages using ffmpeg.
 
 - [apriltag_detector](https://www.github.com/ros-misc-utilities/apriltag_detector/):
-  ROS2 packages to detect and visualize Apriltags with the UMich and MIT Apriltag library.
+  ROS2 packages to detect and visualize Apriltags with the UMich and  MIT Apriltag library.
+  
+- [apriltag_mit](https://www.github.com/ros-misc-utilities/apriltag_mit/):
+  ROS2 vendor package containing the MIT implementation of the Apriltag library.
 
 - [flex_sync](https://www.github.com/ros-misc-utilities/flex_sync/):
   ROS2 package similar to the standard ros message_filters package, but the number of data sources to be synced does not have to be known at compile time.
